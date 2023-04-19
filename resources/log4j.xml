@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Marketing">
+
+  
+  <test name="Run on Firefox browser">
+  
+  	<packages>
+  		<package name = "Group" />
+  	</packages>
+  
+  </test>
+  
+</suite>
