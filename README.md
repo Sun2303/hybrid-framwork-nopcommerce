@@ -1,2 +1,2 @@
 # hybrid-framwork-nopcommerce
-UI Automation Testing framework for NopCommerce projct
+UI Automation Testing framework for NopCommerce project
