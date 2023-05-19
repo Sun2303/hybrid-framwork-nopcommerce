@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="NopCommerce">
 
-  <test name="Run on Firefox">
-    <classes>
-      <class name="com.nopcommerce.account.Account_01_Register"/>
-    </classes>
-  </test>
-  
+	<test name="Run on Chrome">
+		<classes>
+			
+			<class name="com.nopcommerce.account.Level_02_BasePage_Static" />
+		</classes>
+	</test>
+
 </suite>

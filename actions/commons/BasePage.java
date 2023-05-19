@@ -17,6 +17,12 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
+	
+	//Hàm này để dùng cho Static method
+	public static BasePage getBasePage() {
+		return new BasePage();
+	}
+
 	/* Web Browser */
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
