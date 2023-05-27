@@ -3,8 +3,7 @@
 
 	<test name="Run on Chrome">
 		<classes>
-			
-			<class name="com.nopcommerce.account.Level_02_BasePage_Static" />
+			<class name="com.nopcommerce.account.Level_03_PageObject" />
 		</classes>
 	</test>
 

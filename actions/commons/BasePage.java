@@ -256,7 +256,7 @@ public class BasePage {
 		new Actions(driver).doubleClick(getWebElement(driver, locator)).perform();
 	}
 
-	public void rughtClickToElement(WebDriver driver, String locator) {
+	public void rightClickToElement(WebDriver driver, String locator) {
 		new Actions(driver).contextClick(getWebElement(driver, locator)).perform();
 	}
 

@@ -9,6 +9,9 @@ public class SunCoffee1 {
 	
 	private String coffeeSun = "Coffee of Sun";
 	
+	public static SunCoffee1 getSunCoffee1() {
+		return new SunCoffee1();
+	}
 	
 	public void shipEspresso() {
 		System.out.println("Ship cafe: " + espresso);
@@ -26,12 +29,5 @@ public class SunCoffee1 {
 		System.out.println("Ship coffee of Sun: " + coffeeSun);
 	}
 	
-	public static void main(String[] agrs) {
-		SunCoffee1 menu = new SunCoffee1();
-		menu.shipEspresso();
-		menu.shipBacXiu();
-		menu.shipLatte();
-		menu.shipSunCoffee();
-	}
 	
 }
