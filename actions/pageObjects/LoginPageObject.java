@@ -26,5 +26,10 @@ public class LoginPageObject extends BasePage {
 		waitForElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
 	}
+	
+	public void clickToNopCommerceLogo() {
+		waitForElementClickable(driver, LoginPageUI.NOP_COMMERCE_LOGO);
+		clickToElement(driver, LoginPageUI.NOP_COMMERCE_LOGO);
+	}
 
 }
